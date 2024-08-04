@@ -1,0 +1,12 @@
+<h2 *ngIf="category">{{category.name}}</h2>
+
+<div *ngIf="!posts">
+    Cargando...
+</div>
+
+<app-post-view  [posts]="posts"
+                [identity]="identity"
+                [url]="url"
+                [page]="page"
+                [category_id]="category.id">
+            </app-post-view>

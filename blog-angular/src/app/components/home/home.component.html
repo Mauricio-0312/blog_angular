@@ -1,0 +1,13 @@
+<h2>Inicio</h2>
+
+<div *ngIf="!posts">
+    Cargando...
+</div>
+
+<app-post-view  [posts]="posts"
+                [identity]="identity"
+                [url]="url"
+                [page]="page">
+            </app-post-view>
+
+  

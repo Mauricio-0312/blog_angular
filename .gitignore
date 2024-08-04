@@ -1,0 +1,61 @@
+/api-rest-laravel/node_modules
+/api-rest-laravel/public/hot
+/api-rest-laravel/public/storage
+/api-rest-laravel/storage/*.key
+/api-rest-laravel/vendor
+/api-rest-laravel/.env
+/api-rest-laravel/.env.backup
+/api-rest-laravel/.phpunit.result.cache
+/api-rest-laravel/docker-compose.override.yml
+/api-rest-laravel/Homestead.json
+/api-rest-laravel/Homestead.yaml
+/api-rest-laravel/npm-debug.log
+/api-rest-laravel/yarn-error.log
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/blog-angular/dist
+/blog-angular/tmp
+/blog-angular/out-tsc
+# Only exists if Bazel was run
+/blog-angular/bazel-out
+
+# dependencies
+/blog-angular/node_modules
+
+# profiling files
+/blog-angular/chrome-profiler-events*.json
+/blog-angular/speed-measure-plugin*.json
+
+# IDEs and editors
+/blog-angular/.idea
+/blog-angular/.project
+/blog-angular/.classpath
+/blog-angular/.c9/
+/blog-angular/*.launch
+/blog-angular/.settings/
+/blog-angular/*.sublime-workspace
+
+# IDE - VSCode
+/blog-angular/.vscode/*
+/blog-angular/!.vscode/settings.json
+/blog-angular/!.vscode/tasks.json
+/blog-angular/!.vscode/launch.json
+/blog-angular/!.vscode/extensions.json
+/blog-angular/.history/*
+
+# misc
+/blog-angular/.sass-cache
+/blog-angular/coverage
+/blog-angular/libpeerconnection.log
+/blog-angular/npm-debug.log
+/blog-angular/yarn-error.log
+/blog-angular/testem.log
+/blog-angular/connect.lock
+/blog-angular/typings
+
+# System Files
+/blog-angular/.DS_Store
+/blog-angular/Thumbs.db

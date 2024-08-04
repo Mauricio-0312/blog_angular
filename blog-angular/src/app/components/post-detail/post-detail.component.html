@@ -1,0 +1,11 @@
+<div *ngIf="post">
+    <h2>{{post.title}}</h2>
+    <h5>{{post.category.name}} <a [routerLink]="['/profile/'+post.user_id]">{{post.user.name}}</a></h5>
+    <p [innerHtml]="post.content"></p>
+</div>
+<div *ngIf="!post && status != 'error'">
+    Cargando...
+</div>
+<div *ngIf="status == 'error'">
+    <p class="alert alert-danger">Esta entrada no existe</p>
+</div>

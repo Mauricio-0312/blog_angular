@@ -1,0 +1,23 @@
+
+<div class="profile-user-data">
+    <div *ngIf="identity && identity.image" class="image-div">
+        <img src="{{ url+'getImage/'+identity.image }}" alt="" class="avatar-nav">
+    </div>
+    <div class="user-data">
+        <h2>{{user.name+" "+user.surname}}</h2>
+        <p [innerHtml]="user.description"></p>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+
+<app-post-view  [posts]="posts"
+                [identity]="identity"
+                [url]="url"
+                [page]="page"
+                [user_id]="user.id">
+            </app-post-view>
+<div *ngIf="!posts">
+    Cargando...
+</div>
